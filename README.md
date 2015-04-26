@@ -13,9 +13,11 @@ You should create one R script called run_analysis.R that does the following.
 *Uses descriptive activity names to name the activities in the data set
 *Appropriately labels the data set with descriptive variable names. 
 *From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ## Using the Script
 * Make sure the run_analysis.R file is in your working directory.
 * Make sure the UCI HAR Dataset folder downloaded and unzipped from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is in your working directory.
+
 ## Description of run_analysis.R script
 * Each of the six datasets is read in usign **read.table()**.
 * The data tables are combined by rows using **rbind()**, with the X, Y, and Subject datasets forming three new merged data tables.
@@ -27,5 +29,6 @@ You should create one R script called run_analysis.R that does the following.
 * The column names are changed using **gsub()** into admittedly very long, but meaningful variable names. I'm not quite sure how to put these variables into plain English terms.
 * This large merged dataset is then tidied using **aggregate()** to find the average of each variable for each activity and each subject.
 * The final data table linked to in the Coursera assignment page is created with **write.table()** and named tidydata.txt and put in the working directory.
-##Citation for Data:
+
+## Citation for Data
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
