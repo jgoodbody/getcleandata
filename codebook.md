@@ -2,9 +2,9 @@
 
 This codebook describes the variables in the tidydata.txt file created by run_analysis.R.
 
-######**subject**: Each number uniquely identifies the subject who performed the activity (1 to 30).
+***subject**: Each number uniquely identifies the subject who performed the activity (1 to 30).
 
-######**activity**: Describes the activity that the person performed wearing the smartphone. The activities are:
+***activity**: Describes the activity that the person performed wearing the smartphone. The activities are:
 
 WALKING
 WALKING_UPSTAIRS
@@ -12,17 +12,17 @@ WALKING_DOWNSTAIRS
 SITTING
 STANDING
 LAYING
-###**Features Columns**
+###**Variable Names**
 
-*The following replacements were used to name the features/variables:
-  *"^t" was changed to "time"
-  *"^f" was changed to "frequency"
-  *"Acc" was changed to "acceleration"
-  *"Gyro" was changed to "gyroscope"
-  *"Mag" was changed to "magnitude"
-  *"BodyBody" was changed to "body"
-  *"-" was changed to "_"
-  *All variable names were made lowercase
+* The following replacements were used to name the features/variables:
+  * "^t" was changed to "time"
+  * "^f" was changed to "frequency"
+  * "Acc" was changed to "acceleration"
+  * "Gyro" was changed to "gyroscope"
+  * "Mag" was changed to "magnitude"
+  * "BodyBody" was changed to "body"
+  * "-" was changed to "_"
+  * All variable names were made lowercase
 
 
 tBodyAcc-mean()-X -> TBodyAccMeanX
