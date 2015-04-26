@@ -22,7 +22,7 @@ You should create one R script called run_analysis.R that does the following.
 * Each of the six datasets is read in usign **read.table()**.
 * The data tables are combined by rows using **rbind()**, with the X, Y, and Subject datasets forming three new merged data tables.
 * The features.txt file is read in with **read.table()** order to use the variable names contained within.
-* The created intermediate file is searched for "mean" or "std" using greb().
+* The created intermediate file is searched for "mean" or "std" using **greb()**.
 * The matched variable names are replaced using **gsub()**.
 * The activity_labels.txt file is also read in with **read.table()** order to use those for the merged dataset.
 * The three data tables are merged by column using **cbind()**.
