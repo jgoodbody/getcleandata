@@ -88,12 +88,12 @@ This codebook describes the variables in the tidydata.txt file created by run_an
 [60] "frequencybodygyroscope_std_z"                
 [61] "frequencybodyaccelerometermagnitude_mean"    
 [62] "frequencybodyaccelerometermagnitude_std"     
-[63] "frequencybodyaccelerometerjerkmagnitude_mean"
-[64] "frequencybodyaccelerometerjerkmagnitude_std" 
-[65] "frequencybodygyroscopemagnitude_mean"        
-[66] "frequencybodygyroscopemagnitude_std"         
-[67] "frequencybodygyroscopejerkmagnitude_mean"    
-[68] "frequencybodygyroscopejerkmagnitude_std"  
+[63] "frequencybodyaccelerometerjerkmagnitude_mean"                       
+[64] "frequencybodyaccelerometerjerkmagnitude_std"                         
+[65] "frequencybodygyroscopemagnitude_mean"                            
+[66] "frequencybodygyroscopemagnitude_std"      
+[67] "frequencybodygyroscopejerkmagnitude_mean"      
+[68] "frequencybodygyroscopejerkmagnitude_std"      
 
 ## Source
 
